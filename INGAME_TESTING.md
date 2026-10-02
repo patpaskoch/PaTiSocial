@@ -25,7 +25,9 @@ Regeln und Eintragen von Ergebnissen: [PaTiAdmin/docs/TESTING.md](https://github
 - [ ] PT-SOCIAL-004 `/reload` ohne Lua-Fehler
 - [ ] PT-SOCIAL-005 `/psocial debug`: DoEmote und SendChatMessage vorhanden, Anzahl gefundener Emote-Tokens, Liste der
   angebotenen und nicht angebotenen Aktionen (Ausgabe melden)
-- [ ] PT-SOCIAL-006 Icon in der AddOn-Liste korrekt (Sprechblase mit zwei Figuren), keine weiße oder fehlende Textur
+- [x] PT-SOCIAL-006 Icon in der AddOn-Liste korrekt (Sprechblase mit zwei Figuren), keine weiße oder fehlende Textur
+  - ✅ VERIFIED 2026-10-02
+  - Owner: die Icons erscheinen im Spiel in der AddOn-Liste korrekt.
 
 ## Fenster
 
