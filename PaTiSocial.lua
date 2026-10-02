@@ -64,6 +64,7 @@ end
 local PAD, GAP = UI.Spacing.MD, UI.Spacing.SM
 local LINE = UI.Sizes.ButtonHeight + GAP
 local window = UI.CreateWindow("PaTiSocialFrame", "Party Social", 160, 60)
+window:SetCombatMovable(true) -- no secure children: may be dragged in combat too (PaTiShared)
 local content = CreateFrame("Frame", nil, window) -- everything below the header; hidden while collapsed
 content:SetPoint("TOPLEFT", 0, -UI.Sizes.HeaderHeight)
 content:SetPoint("BOTTOMRIGHT")
