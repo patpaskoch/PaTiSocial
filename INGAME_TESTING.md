@@ -21,7 +21,9 @@ Regeln und Eintragen von Ergebnissen: [PaTiAdmin/docs/TESTING.md](https://github
 
 - [ ] PT-SOCIAL-001 Fresh Install aus dem Release-ZIP: genau ein Ordner `PaTiSocial/`, Addon lädt allein
 - [ ] PT-SOCIAL-002 PaTiSocial erscheint in der AddOn-Liste mit Beschreibung
-- [ ] PT-SOCIAL-003 Login ohne Lua-Fehler
+- [x] PT-SOCIAL-003 Login ohne Lua-Fehler
+  - ✅ VERIFIED 2026-10-02
+  - Owner: PaTiSocial lädt ohne Fehler.
 - [ ] PT-SOCIAL-004 `/reload` ohne Lua-Fehler
 - [ ] PT-SOCIAL-005 `/psocial debug`: DoEmote und SendChatMessage vorhanden, Anzahl gefundener Emote-Tokens, Liste der
   angebotenen und nicht angebotenen Aktionen (Ausgabe melden)
@@ -42,15 +44,23 @@ Regeln und Eintragen von Ergebnissen: [PaTiAdmin/docs/TESTING.md](https://github
 ## Buttons und Layout
 
 - [ ] PT-SOCIAL-020 Erster Start: sechs Buttons Winken, Danke, Lachen, Los!, Warten, Jubeln
-- [ ] PT-SOCIAL-021 Anzahl 4 / 6 / 8 in den Einstellungen: sofort sichtbar, leere Plätze erscheinen nicht
-- [ ] PT-SOCIAL-022 Layout Horizontal: Buttons nebeneinander, nichts abgeschnitten oder überlappt
-- [ ] PT-SOCIAL-023 Layout Vertikal: ein Button pro Zeile, gleich breit, nichts abgeschnitten
+- [x] PT-SOCIAL-021 Anzahl 4 / 6 / 8 in den Einstellungen: sofort sichtbar, leere Plätze erscheinen nicht
+  - ✅ VERIFIED 2026-10-02
+  - Owner: die Anzahl der Buttons lässt sich ändern.
+- [x] PT-SOCIAL-022 Layout Horizontal: Buttons nebeneinander, nichts abgeschnitten oder überlappt
+  - ✅ VERIFIED 2026-10-02
+  - Owner: horizontal funktioniert.
+- [x] PT-SOCIAL-023 Layout Vertikal: ein Button pro Zeile, gleich breit, nichts abgeschnitten
+  - ✅ VERIFIED 2026-10-02
+  - Owner: vertikal funktioniert.
 - [ ] PT-SOCIAL-024 Anzahl und Layout bleiben nach `/reload`
 - [ ] PT-SOCIAL-025 Hover hellt den Button auf; Tooltip steht neben dem Button, nicht darüber
 
 ## Emotes
 
-- [ ] PT-SOCIAL-030 Winken: ein Klick = genau ein Emote (Chat zeigt es einmal), kein Lua-Fehler
+- [x] PT-SOCIAL-030 Winken: ein Klick = genau ein Emote (Chat zeigt es einmal), kein Lua-Fehler
+  - ✅ VERIFIED 2026-10-02
+  - Owner: der Emote-Button funktioniert.
 - [ ] PT-SOCIAL-031 Danke, Lachen, Jubeln: je ein Klick = ein Emote
 - [ ] PT-SOCIAL-032 Mit Ziel: das Emote geht an das Ziel; ohne Ziel: allgemeines Emote
 - [ ] PT-SOCIAL-033 Ein Emote, das der Client nicht kennt, wird nicht angeboten (`/psocial debug`)
