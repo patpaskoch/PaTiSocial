@@ -17,7 +17,9 @@ Format: `## [Unreleased]` / `## [x.y.z] - YYYY-MM-DD` with Added, Changed, Fixed
   NONE = empty); unknown or broken values are repaired on login. Restore Defaults keeps the position.
 - `/psocial`, `/patisocial` with show, hide, lock, unlock, reset, settings, debug, version. English texts, German
   translation. MIT license.
+- Icon (owner-provided, PaTiSuite style: golden speech bubble and two figures): `Media/icon.tga` for the AddOns list,
+  platform images in `assets/`.
 ### Known Issues
 - Not tested in game yet (`INGAME_TESTING.md`). The Forever client's emote list, `DoEmote` and `SendChatMessage`
   behaviour (SAY needs a hardware event in modern clients — a click is one) are unconfirmed.
-- No icon in the AddOns list yet; buttons show text.
+- Buttons show text (no per-action icons).

@@ -1,5 +1,7 @@
 # PaTiSocial
 
+<img src="assets/icon-128.png" width="96" alt="PaTiSocial icon">
+
 A small quick-communication panel for World of Warcraft: Forever (Interface 16001). In game the window is called
 **Party Social**: a row of buttons for emotes and short messages. One click = exactly one emote or one message —
 PaTiSocial never says or does anything by itself.

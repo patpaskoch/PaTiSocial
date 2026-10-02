@@ -4,6 +4,7 @@
 ## Notes-deDE: Party Social - schnelle Emote- und Nachrichten-Buttons, ein Klick = eine Aktion
 ## Author: PaTi
 ## Version: 0.1.0
+## IconTexture: Interface\AddOns\PaTiSocial\Media\icon
 ## SavedVariablesPerCharacter: PaTiSocialDB
 
 Shared\Shared.xml
