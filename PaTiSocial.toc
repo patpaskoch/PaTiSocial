@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: PaTiSocial
+## Notes: Party Social - quick emote and message buttons, one click = one action
+## Notes-deDE: Party Social - schnelle Emote- und Nachrichten-Buttons, ein Klick = eine Aktion
+## Author: PaTi
+## Version: 0.1.0
+## SavedVariablesPerCharacter: PaTiSocialDB
+
+Shared\Shared.xml
+Locales\enUS.lua
+Locales\deDE.lua
+Actions.lua
+Logic.lua
+PaTiSocial.lua
