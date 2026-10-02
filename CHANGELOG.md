@@ -19,6 +19,8 @@ Format: `## [Unreleased]` / `## [x.y.z] - YYYY-MM-DD` with Added, Changed, Fixed
   translation. MIT license.
 - Icon (owner-provided, PaTiSuite style: golden speech bubble and two figures): `Media/icon.tga` for the AddOns list,
   platform images in `assets/`.
+### Fixed
+- Hardening: a broken SavedVariables save (not a table, a broken schema or scale) no longer breaks the login; only the broken value is replaced, every valid setting (also `false`) stays, and the migration is idempotent (tests/robustness_spec.lua).
 ### Known Issues
 - Not tested in game yet (`INGAME_TESTING.md`). The Forever client's emote list, `DoEmote` and `SendChatMessage`
   behaviour (SAY needs a hardware event in modern clients — a click is one) are unconfirmed.

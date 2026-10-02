@@ -44,10 +44,12 @@ end
 -- is not a string, or (with isKnown) not a known action any more, becomes NONE. An unknown layout or slot count
 -- falls back to the default.
 function Logic.Migrate(db, isKnown)
-    db = db or {}
+    if type(db) ~= "table" then db = {} end -- nil or a broken save (string, number …): start fresh
     for key, value in pairs(Logic.DEFAULTS) do
         if db[key] == nil then db[key] = value end
     end
+    -- A broken scale would make SetScale fail on login: only a sane number is kept (saved values elsewhere stay).
+    if type(db.scale) ~= "number" or db.scale < 0.5 or db.scale > 2 then db.scale = Logic.DEFAULTS.scale end
     if not listed(Logic.LAYOUTS, db.layout) then db.layout = Logic.DEFAULTS.layout end
     if not listed(Logic.SLOT_COUNTS, db.slotCount) then db.slotCount = Logic.DEFAULTS.slotCount end
     local saved = type(db.slots) == "table" and db.slots or defaultSlots()
