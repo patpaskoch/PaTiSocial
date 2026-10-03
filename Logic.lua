@@ -19,6 +19,7 @@ Logic.DEFAULT_SLOTS = { "WAVE", "THANK", "LAUGH", "PARTY_GO", "PARTY_WAIT", "CHE
 -- Position (point, relativePoint, x, y) is written by the PaTiShared window, not listed here.
 Logic.DEFAULTS = {
     opacity = 0.75,
+    theme = "default", -- "default" | "woforever" | "dracula" (PaTiShared UI.THEMES; colours only)
     locked = false,
     collapsed = false,
     scale = 1,
@@ -50,6 +51,8 @@ function Logic.Migrate(db, isKnown)
     end
     -- A broken scale would make SetScale fail on login: only a sane number is kept (saved values elsewhere stay).
     if type(db.scale) ~= "number" or db.scale < 0.5 or db.scale > 2 then db.scale = Logic.DEFAULTS.scale end
+    -- Theme: one of the three PaTiShared themes; a typo or an old value falls back to the default look.
+    if db.theme ~= "default" and db.theme ~= "woforever" and db.theme ~= "dracula" then db.theme = "default" end
     if not listed(Logic.LAYOUTS, db.layout) then db.layout = Logic.DEFAULTS.layout end
     if not listed(Logic.SLOT_COUNTS, db.slotCount) then db.slotCount = Logic.DEFAULTS.slotCount end
     local saved = type(db.slots) == "table" and db.slots or defaultSlots()

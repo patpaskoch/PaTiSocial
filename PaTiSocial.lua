@@ -205,6 +205,7 @@ local function buildSettings()
     end
     modal:Finish(function()
         Logic.RestoreDefaults(DB)
+        window:ApplyTheme() -- Restore Defaults: theme back to default
         window:ApplyOpacity()
         UI.SetLanguage(DB.language)
         window:SetLocked(DB.locked)
@@ -311,3 +312,4 @@ events:SetScript("OnEvent", function(_, event)
     refresh()
 end)
 UI.OnLanguageChanged(refresh)
+UI.OnThemeChanged(refresh) -- state colours follow the theme (static ones repaint themselves, UI.Paint)

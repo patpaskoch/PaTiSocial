@@ -4,6 +4,7 @@ Format: `## [Unreleased]` / `## [x.y.z] - YYYY-MM-DD` with Added, Changed, Fixed
 
 ## [Unreleased] — 0.1.0
 ### Added
+- Themes (owner wish 2026-10-03): Settings → Window → Theme — Default (the PaTi look as before), WoForever (warm brown, gold/bronze) or Dracula (dark, purple/pink/cyan accents). Colours only; layout, secure buttons and behaviour are unchanged. Saved per character in this addon (`theme`, unknown values → Default); Restore Defaults returns to Default. PaTiSuite can switch all PaTi windows at once.
 - New addon "Party Social" (owner wish 2026-10-02): a panel of up to 12 buttons (4/6/8/10/12 shown), each with one
   action or none. One click = exactly one emote or one message; nothing automatic.
 - Action library (`Actions.lua`): emotes WAVE, HELLO, BOW, SALUTE, THANK, CHEER, APPLAUD, LAUGH, DANCE, JOKE via
