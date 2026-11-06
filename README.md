@@ -4,11 +4,13 @@
 
 ## What is PaTiSocial?
 
+> **Installation-test beta available:** [Download the current ZIP from Releases](https://github.com/patpaskoch/PaTiSocial/releases). This is an unverified preview for testing the installation, not a stable release.
+
 A small quick-communication panel for World of Warcraft: Forever (Interface 16001). In game the window is called
 **Party Social**: a row of buttons for emotes and short messages. One click = exactly one emote or one message —
 PaTiSocial never says or does anything by itself.
 
-> Status: 0.1.0, in development, not yet released. Not yet tested in game.
+> Status: 0.1.0, in development, not yet stable. Not yet tested in game.
 
 ## Features
 
