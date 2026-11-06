@@ -2,30 +2,25 @@
 
 <img src="assets/icon-128.png" width="96" alt="PaTiSocial icon">
 
+## Install
+
+**📥 [Download PaTiSocial Beta](https://github.com/patpaskoch/PaTiSocial/releases/download/v0.1.0-beta.1/PaTiSocial-0.1.0-beta.1.zip)** · [Installation guide](#installation)
+
+*Installation-test preview — not yet a stable release.*
+
 ## What is PaTiSocial?
 
-> **Installation-test beta available:** [Download the current ZIP from Releases](https://github.com/patpaskoch/PaTiSocial/releases). This is an unverified preview for testing the installation, not a stable release.
+**Good adventures deserve a little personality.**
 
-A small quick-communication panel for World of Warcraft: Forever (Interface 16001). In game the window is called
-**Party Social**: a row of buttons for emotes and short messages. One click = exactly one emote or one message —
-PaTiSocial never says or does anything by itself.
-
-> Status: 0.1.0, in development, not yet stable. Not yet tested in game.
+A quick hello, a well-timed cheer or a simple 'wait a moment' can make a party feel like a team. PaTiSocial keeps your favorite emotes and short messages one click away — without digging through chat commands.
 
 ## Features
 
-- Up to 12 buttons (4, 6, 8, 10 or 12 shown); every button can hold any action, or none
-- **Emotes:** wave, hello, bow, salute, thanks, cheer, applaud, laugh, dance, joke — only those your client knows
-  (PaTiSocial checks the client's own emote list; `/psocial debug` shows which ones)
-- **Short messages:** "Hello!" (say); "Thanks!", "Let's go!", "Wait a moment, please.", "Stop.", "Help!", "Ready."
-  (party); "Wait a moment, please." (raid). A party message works only in a group, a raid message only in a raid —
-  otherwise the button is greyed out and says why. It never switches to another channel by itself
-- Layout: horizontal (compact row) or vertical (one button per line)
-- Tooltips: what the button does — emote, or which channel and the exact message
-- ••• menu: Settings, Lock, Collapse/Expand, Hide. Settings: language, scale, lock, panel opacity, layout, number of
-  buttons, the action of each button. Languages: English, Deutsch (others fall back to English)
-
-Default buttons: Wave, Thanks, Laugh, Go! (party), Wait (party), Cheer.
+- **Say it with a click:** Quick emotes and short party messages.
+- **Your favorite actions:** Choose up to twelve buttons.
+- **Keep it clear:** Tooltips show exactly what each button does.
+- **Fits your screen:** Horizontal or vertical compact layouts.
+- **Always your choice:** Nothing is sent automatically.
 
 ## Installation
 
@@ -43,6 +38,27 @@ Default buttons: Wave, Thanks, Laugh, Go! (party), Wait (party), Cheer.
 ## Settings
 
 Use `/psocial settings` to choose the layout, button count and emote or message actions.
+
+## Important notes
+
+> **Installation-test beta available:** [Download the current ZIP from Releases](https://github.com/patpaskoch/PaTiSocial/releases). This is an unverified preview for testing the installation, not a stable release.
+
+> Status: 0.1.0, in development, not yet stable. Not yet tested in game.
+
+## Feature details
+
+- Up to 12 buttons (4, 6, 8, 10 or 12 shown); every button can hold any action, or none
+- **Emotes:** wave, hello, bow, salute, thanks, cheer, applaud, laugh, dance, joke — only those your client knows
+  (PaTiSocial checks the client's own emote list; `/psocial debug` shows which ones)
+- **Short messages:** "Hello!" (say); "Thanks!", "Let's go!", "Wait a moment, please.", "Stop.", "Help!", "Ready."
+  (party); "Wait a moment, please." (raid). A party message works only in a group, a raid message only in a raid —
+  otherwise the button is greyed out and says why. It never switches to another channel by itself
+- Layout: horizontal (compact row) or vertical (one button per line)
+- Tooltips: what the button does — emote, or which channel and the exact message
+- ••• menu: Settings, Lock, Collapse/Expand, Hide. Settings: language, scale, lock, panel opacity, layout, number of
+  buttons, the action of each button. Languages: English, Deutsch (others fall back to English)
+
+Default buttons: Wave, Thanks, Laugh, Go! (party), Wait (party), Cheer.
 
 ## PaTiSuite
 
