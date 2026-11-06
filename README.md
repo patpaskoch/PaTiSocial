@@ -2,6 +2,8 @@
 
 <img src="assets/icon-128.png" width="96" alt="PaTiSocial icon">
 
+## What is PaTiSocial?
+
 A small quick-communication panel for World of Warcraft: Forever (Interface 16001). In game the window is called
 **Party Social**: a row of buttons for emotes and short messages. One click = exactly one emote or one message —
 PaTiSocial never says or does anything by itself.
@@ -9,6 +11,7 @@ PaTiSocial never says or does anything by itself.
 > Status: 0.1.0, in development, not yet released. Not yet tested in game.
 
 ## Features
+
 - Up to 12 buttons (4, 6, 8, 10 or 12 shown); every button can hold any action, or none
 - **Emotes:** wave, hello, bow, salute, thanks, cheer, applaud, laugh, dance, joke — only those your client knows
   (PaTiSocial checks the client's own emote list; `/psocial debug` shows which ones)
@@ -21,6 +24,23 @@ PaTiSocial never says or does anything by itself.
   buttons, the action of each button. Languages: English, Deutsch (others fall back to English)
 
 Default buttons: Wave, Thanks, Laugh, Go! (party), Wait (party), Cheer.
+
+## Installation
+
+![PaTiSocial – three-step installation guide](assets/installation_en.svg)
+
+1. 📥 **Download** – Open [GitHub Releases](https://github.com/patpaskoch/PaTiSocial/releases) and download the `PaTiSocial-<version>.zip` file under **Assets** (not **Source code (zip)**).
+2. 📂 **Extract & Copy** – Right-click the ZIP, select **Extract All**, then copy the extracted `PaTiSocial` folder into the WoW Forever client's `Interface/AddOns/` folder. No renaming is needed.
+3. ☑️ **Enable in Game** – Start WoW, open the **AddOns** menu at character selection, tick **PaTiSocial**, and click **OK**.
+
+## Getting Started
+
+- `/psocial` shows or hides the window; drag it by its header
+- `/psocial settings` → choose the layout, how many buttons, and what each button does
+
+## Settings
+
+Use `/psocial settings` to choose the layout, button count and emote or message actions.
 
 ## PaTiSuite
 
@@ -44,23 +64,13 @@ Each one is installed on its own and works on its own; none of them is needed by
 - [PaTiLead](https://github.com/patpaskoch/PaTiLead) – the other half of group play: markers, ready check, pull timer
 - [PaTiSuite](https://github.com/patpaskoch/PaTiSuite) – shows and hides this window together with the other PaTi windows
 
-## Installation
-
-![PaTiSocial – three-step installation guide](assets/installation_en.svg)
-
-1. 📥 **Download** – Open [GitHub Releases](https://github.com/patpaskoch/PaTiSocial/releases) and download the `PaTiSocial-<version>.zip` file under **Assets** (not **Source code (zip)**).
-2. 📂 **Extract & Copy** – Right-click the ZIP, select **Extract All**, then copy the extracted `PaTiSocial` folder into the WoW Forever client's `Interface/AddOns/` folder. No renaming is needed.
-3. ☑️ **Enable in Game** – Start WoW, open the **AddOns** menu at character selection, tick **PaTiSocial**, and click **OK**.
-
-## First steps
-- `/psocial` shows or hides the window; drag it by its header
-- `/psocial settings` → choose the layout, how many buttons, and what each button does
-
 ## Commands
+
 `/psocial` or `/patisocial` — alone: show/hide · `show` · `hide` · `lock` · `unlock` · `reset` (position) ·
 `settings` · `debug` · `version`
 
 ## Known limitations
+
 - Not yet tested in game; whether the Forever client's emote list and chat API behave as expected is unconfirmed.
 - Only the predefined actions; own messages are not possible yet. Buttons show text, no icons.
 - An emote is done at your current target (as in WoW); no target = a general emote.
@@ -70,4 +80,5 @@ Each one is installed on its own and works on its own; none of them is needed by
 Architecture, tests and engineering rules of the suite: [PaTiAdmin](https://github.com/patpaskoch/PaTiAdmin). PaTiAdmin is not a WoW addon — players do not install it. The shared UI code (PaTiShared) is already embedded in this addon's `Shared/` folder; there is nothing extra to install.
 
 ## License
+
 MIT — see [LICENSE](LICENSE). Copyright (c) 2026 Patrick Koch.
