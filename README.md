@@ -45,9 +45,12 @@ Each one is installed on its own and works on its own; none of them is needed by
 - [PaTiSuite](https://github.com/patpaskoch/PaTiSuite) – shows and hides this window together with the other PaTi windows
 
 ## Installation
-1. Download the release zip (`PaTiSocial-<version>.zip`).
-2. Unpack it and copy the folder `PaTiSocial` into `World of Warcraft/<client>/Interface/AddOns/`.
-3. Start WoW and enable PaTiSocial in the AddOns list.
+
+![PaTiSocial – three-step installation guide](assets/installation_en.svg)
+
+1. 📥 **Download** – Open [GitHub Releases](https://github.com/patpaskoch/PaTiSocial/releases) and download the `PaTiSocial-<version>.zip` file under **Assets** (not **Source code (zip)**).
+2. 📂 **Extract & Copy** – Right-click the ZIP, select **Extract All**, then copy the extracted `PaTiSocial` folder into the WoW Forever client's `Interface/AddOns/` folder. No renaming is needed.
+3. ☑️ **Enable in Game** – Start WoW, open the **AddOns** menu at character selection, tick **PaTiSocial**, and click **OK**.
 
 ## First steps
 - `/psocial` shows or hides the window; drag it by its header
