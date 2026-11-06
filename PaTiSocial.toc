@@ -3,7 +3,7 @@
 ## Notes: Party Social - quick emote and message buttons, one click = one action
 ## Notes-deDE: Party Social - schnelle Emote- und Nachrichten-Buttons, ein Klick = eine Aktion
 ## Author: PaTi
-## Version: 0.1.0
+## Version: 0.1.0-beta.1
 ## IconTexture: Interface\AddOns\PaTiSocial\Media\icon
 ## SavedVariablesPerCharacter: PaTiSocialDB
 
